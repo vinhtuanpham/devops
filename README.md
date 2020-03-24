@@ -19,6 +19,7 @@ You can install UCP on-premises or on a cloud provider. To install UCP,
 all nodes must have:
 
 * Linux kernel version 3.10 or higher ( Ex: Ubuntun 18.04 LTS)
+* Windows 10 or higher
 * CS Docker Engine version 1.10 or higher. Learn about the
 [operating systems supported by CS Docker Engine](/install/).
 * 8.00 GB of RAM
@@ -47,7 +48,11 @@ When installing UCP on a host, make sure the following ports are open:
 | controller         |    in     | TCP 12383               | Used by the authentication storage backend.                                |
 | controller         |    in     | TCP 12384               | Used by authentication storage backend for replication across controllers. |
 | controller         |    in     | TCP 12385               | The port where the authentication API is exposed.                          |
-| controller         |    in     | TCP 12386               | Used by the authentication worker.                                         |
+| controller         |    in     | TCP 12386               | Used by the authentication worker.
+| nodes         |    in     | TCP 8080               | Used by Jenkins.
+| nodes         |    in     | TCP 8000               | Used by Gitlab.
+| nodes         |    in     | TCP 9000               | Used by SonarQube.
+|
 
 ### Compatibility and maintenance lifecycle
 
