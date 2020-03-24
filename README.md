@@ -1,14 +1,12 @@
 # DevOps
 A working docker-compose of a CI system with GitLab, Jenkins, and SonarQube. ( Note: you can remove Gitlab and SonarQube if you already have or you want to use .NET Full Framework project)
 ## Prerequisites
----
 description: Learn about the system requirements for installing Docker Universal Control
   Plane.
 keywords: docker, ucp, architecture, requirements
 redirect_from:
 - /ucp/installation/system-requirements/
 title: UCP System requirements
----
 
 Docker Universal Control Plane can be installed on-premises or on the cloud.
 Before installing, be sure your infrastructure has these requirements.
