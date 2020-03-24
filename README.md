@@ -21,7 +21,7 @@ Of course, if these ports are taken up by something else on your machine, the co
 As Jenkins installation requires a secret key which is sent to the logs, use `docker logs` to get the key. Run this command:
 
 ```bash
-docker logs gitlab_jenkins_1 | less
+docker logs devops_jenkins_1 | less
 ```
 
 ### Shutting down
