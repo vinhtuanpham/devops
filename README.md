@@ -37,3 +37,9 @@ The data is persisted through various volumes. This means you can rerun `docker-
 ```bash
 docker-compose down -v
 ```
+
+### Deploy a registry server
+- https://docs.docker.com/registry/deploying/
+
+### Setup Jenkins Slave node
+- https://wiki.jenkins.io/display/JENKINS/Step+by+step+guide+to+set+up+master+and+agent+machines+on+Windows
