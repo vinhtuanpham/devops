@@ -670,10 +670,7 @@ Set up a virtual machine.
 In our testing regime we will be using:
 
 * Windows 10 64bit
-We have purchased licenses of these OS's specifically for deployment in
-our VirtualBox virtual machines.
-The setup and installation of windows and VirtualBox is not described here
-except as pertains to testing.
+
 We will be installing the following components on each windows slave:
 
 * **Microsoft .NET and Visual Studio **
